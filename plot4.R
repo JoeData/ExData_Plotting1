@@ -13,7 +13,7 @@ for (i in 3:9) {
 };
 
 ##Open PNG Graphic Device
-png(filename = "plot4.png", width = 480, height = 480)
+png(filename = "plot4.png", width = 480, height = 480);
 
 ## Generates plot
 par(mfrow = c(2,2))
@@ -39,4 +39,4 @@ with(energydf, {
 
 
 ## closes graphic device
-dev.off()
+dev.off();

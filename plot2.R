@@ -11,10 +11,10 @@ energydf <- subset(energydf, format(DateTime, '%Y-%m-%d') > "2007-01-31" & forma
 energydf[,3] <- as.numeric(energydf[,3]);
 
 ##Open PNG Graphic Device
-png(filename = "plot2.png", width = 480, height = 480)
+png(filename = "plot2.png", width = 480, height = 480);
 
 ## Generates plot
 plot(energydf$DateTime, energydf$Global_active_power, type="l", xlab="", ylab = "Global Active Power (kilowatts)");
 
 ## closes graphic device
-dev.off()
+dev.off();

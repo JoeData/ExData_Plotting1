@@ -13,7 +13,7 @@ for (i in 7:9) {
 };
 
 ##Open PNG Graphic Device
-png(filename = "plot3.png", width = 480, height = 480)
+png(filename = "plot3.png", width = 480, height = 480);
 
 ## Generates plot
 plot(energydf$DateTime, energydf$Sub_metering_1, type="l", xlab="", ylab = "Energy sub metering", cex.lab=.75, cex.axis=.75);
